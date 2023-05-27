@@ -1,32 +1,103 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# BMI Calculator (Flutter)
 
+BMI Calculator is a cross-platform mobile application developed using Flutter. This app calculates Body Mass Index (BMI) values and provides users with valuable insights about their health based on their weight and height inputs.
 
-# BMI Calculator 💪
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Technologies and Tools](#technologies-and-tools)
+3. [Installation Instructions](#installation-instructions)
+4. [Usage Guide](#usage-guide)
+5. [Features and Functionality](#features-and-functionality)
+6. [Contributing Guidelines](#contributing-guidelines)
+7. [License Information](#license-information)
+8. [Contact Information](#contact-information)
 
-## Our Goal
+## Project Overview
 
-The objective of this tutorial is to look at how we can customise Flutter Widgets to achieve our own beautiful user interface designs. If you have a designer on board, no matter how unconventional their designs are, we can create them using Flutter. 
+This BMI Calculator app aims to provide an intuitive user-interface that allows users to gauge their health according to their BMI values. The application is available on both Android and iOS platforms.
 
+## Technologies and Tools
 
-## What you will create
+The BMI Calculator app is developed using [Flutter](https://flutter.dev/), a popular open-source UI framework for building natively compiled applications across multiple platforms. The core programming language used in this project is [Dart](https://dart.dev/). Some other technologies and tools used in this project include:
 
-We’re going to make a Body Mass Index Calculator inspired by the beautiful designs made by [Ruben Vaalt](https://dribbble.com/shots/4585382-Simple-BMI-Calculator). It will be a multi screen app with simple functionality but full-on custom styling. 
+- [Git](https://git-scm.com/) for version control
+- [GitHub](https://github.com/) for collaboration and project management
+- [Xcode](https://developer.apple.com/xcode/) and [Android Studio](https://developer.android.com/studio) for mobile platform-specific development and testing
 
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/bmi-calc-demo.gif)
+These technologies and tools contribute to the smooth development and deployment of the BMI Calculator app, ensuring its functionality, performance, and overall success.
 
-## What you will learn
+## Installation Instructions
 
-- How to use Flutter themes to create coherent branding. 
-- How to create multi-page apps using Flutter Routes and Navigator.
-- How to extract and refactor Flutter Widgets with a click of the button. 
-- How to pass functions as parameters and fields.
-- How to use the GestureDetector Widget to detect more than just a tap.
-- How to use custom colour palettes by using hex codes.
-- How to customise Flutter Widgets to achieve a specific design style.
-- Understand Dart Enums and the Ternary Operator.
-- Learn about composition vs. inheritance and the Flutter way of creating custom UI.
-- Understand the difference between const and final in Dart and when to use each.
+To setup and run the app on your local machine, follow the steps below:
 
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+1. Install [Flutter](https://flutter.dev/docs/get-started/install) and Dart SDK.
+2. Clone the repository:
 
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+```
+git clone https://github.com/thisisyoussef/bmi-calculator-flutter.git
+```
+
+3. Change to the newly created directory:
+
+```
+cd bmi-calculator-flutter
+```
+
+4. Run the app on your desired platform (Android or iOS):
+
+```
+flutter run
+```
+
+Note: To build and run the app on iOS, use Xcode. To build and run the app on Android, use Android Studio.
+
+## Usage Guide
+
+To use the BMI Calculator app:
+
+1. Launch the app on your Android or iOS device/emulator.
+2. Enter your height and weight values.
+3. Tap the "Calculate" button to calculate your BMI.
+4. Read the results and obtain valuable insights about your health.
+
+## Features and Functionality
+
+- Cross-platform support for Android and iOS devices.
+- Intuitive user-interface design.
+- Accurate BMI calculation based on user inputs (weight and height).
+- Clear and informative health insights based on BMI values.
+
+## Contributing Guidelines
+
+We encourage and welcome contributions from the community. To contribute, follow the steps below:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+
+```
+git checkout -b my-feature-branch
+```
+
+3. Commit your changes:
+
+```
+git commit -m "Add my feature or fix a bug"
+```
+
+4. Push your changes to your fork:
+
+```
+git push origin my-feature-branch
+```
+
+5. Create a pull request on the original repository.
+
+Please ensure that your code follows existing style guidelines and properly tested before submitting your pull request.
+
+## License Information
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
+
+## Contact Information
+
+If you have any questions or suggestions, feel free to reach out to the author at [thisisyoussef](https://github.com/thisisyoussef). Happy coding!
